@@ -1,0 +1,53 @@
+/* Style for the heading */
+h1 {
+  color: #ff8080;
+  font-family: fantasy;
+  position: absolute;
+  top: 10px; /* Position heading near the top */
+  text-align: center;
+  width: 100%; /* Make heading span full width */
+}
+
+
+/* Align body to center content */
+.content {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  gap: 20px; /* Add some space between buttons */
+  padding: 20px; /* Padding around the content */
+  margin: 0; /* Remove default margin */
+  flex-direction: row; /* Keep the buttons in a row */
+}
+
+/* Style for buttons */
+.button {
+  background-color: #ff86cf;
+  border: 16px solid transparent; /* Transparent border initially */
+  border-radius: 30%;
+  padding: 20px;
+  margin: 10px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.5s ease, border 0.5s ease,border-style; /* Smooth transition for background color and border */
+}
+
+/* Active state for the button (on click) */
+.button:active {
+  background-color: #ff66c2;
+  border-color: #ae58fe; /* Border color when the button is clicked */
+  border-style: outset;
+}
+
+/* Centering the paragraph content */
+p {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-size: 25px;
+  margin-top: 20px; /* Add margin above the paragraph */
+  transition-property:font-size;
+}
