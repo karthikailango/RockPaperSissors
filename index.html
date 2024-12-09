@@ -7,10 +7,14 @@
   </head>
   <body>
     <div class="content">
-        <button class="button" alt="rock" onclick="checkSignal(0)">✊</button>
-        <button class="button" alt="Sissors" onclick="checkSignal(2)">✌️</button>
-        <button class="button" alt="paper" onclick="checkSignal(1)">🖐️</button>
-    </div> 
-    <p id="scoreDisplay">Your Score: 0 &nbsp;&nbsp;&nbsp;&nbsp;Opponent Score: 0</p>
+        <button class="clickable" alt="rock" onclick="refree('rock') ">✊</button>
+        <button class="clickable" alt="Sissors" onclick="refree('sissors') ">✌️</button>
+        <button class="clickable" alt="paper" onclick="refree('paper')">🖐️</button>
+      </div>
+      <div class="content",flex-direction:column;>
+      <p id="scoreDisplay">Your Score: 0 &nbsp;&nbsp;&nbsp;&nbsp;Opponent Score: 0</p>
+      <button class= "submitButton" onclick="reset()">Reset</button> 
+    </div>
+    
   </body>
 </html>
