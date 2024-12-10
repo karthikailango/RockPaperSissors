@@ -1,23 +1,29 @@
 /* Style for the heading */
 h1 {
-  color: #ff8080;
-  font-family: fantasy;
-  position: absolute;
+  color:#ffff86;
+  font-family:;
+  position: center;
   top: 10px; /* Position heading near the top */
   text-align: center;
   width: 100%; /* Make heading span full width */
+  
+
+}
+
+body{
+background-color: rgb(43, 42, 42);
 }
 
 
 /* Align body to center content */
-content {
+.content {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   gap: 20px; /* Add some space between buttons */
   padding: 20px; /* Padding around the content */
   margin: 0; /* Remove default margin */
-  flex-direction:rows; /* Keep the buttons in a row */
+  flex-direction:column; /* Keep the buttons in a row */
 
 }
 
@@ -51,6 +57,7 @@ p {
   font-size: 25px;
   margin-top: 20px; /* Add margin above the paragraph */
   transition-property:font-size;
+  color:#ffff86;
 }
 
 .submitButton
@@ -59,18 +66,41 @@ p {
   align-items: center;
   background-color: #cd61ff;
   border: 4px solid transparent; 
-  border-radius: 4px;
+  border-radius: 22px;
   padding: 8px;
-  margin: 2px;
-  font-size: 16px;
-  color: azure;
+  margin: 20px;
+  font-size: 18px;
+  width: 100px;
+  color:#ffff86;
   cursor: pointer; /* Change cursor on hover */
   transition: background-color 0.5s ease, border 0.5s ease,border-style;
 }
 
-.buttons
+.submitButton:active
 {
+  color:#560052;
+  background-color:#cd61ff;
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.5s ease, border 0.5s ease,border-style;
+}
+.buttons
+{ display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
   flex-direction: row;
 }
+
+.score
+{
+  display:flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+
+  
+}
+
+
 
   
