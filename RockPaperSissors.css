@@ -1,7 +1,7 @@
 /* Style for the heading */
 h1 {
   color:#ffff86;
-  font-family:;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: center;
   top: 10px; /* Position heading near the top */
   text-align: center;
@@ -58,6 +58,7 @@ p {
   margin-top: 20px; /* Add margin above the paragraph */
   transition-property:font-size;
   color:#ffff86;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .submitButton
