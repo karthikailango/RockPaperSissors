@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
     <title>RockPaperSissors</title>
     <link rel="stylesheet" href="RockPaperSissors.css"></link>
     <script src="RockPaperSissors.js" defer></script>
   </head>
-  <body>
+
+  <body id="indexBody">
     <h1>Game 4 U</h1>
-    <div class="content">
-      <div class="buttons">
-        <button class="clickable" alt="rock" onclick="refree('rock') ">✊</button>
-        <button class="clickable" alt="Sissors" onclick="refree('sissors') ">✌️</button>
-        <button class="clickable" alt="paper" onclick="refree('paper')">🖐️</button>
-      </div>
+    <h4>Enter Your Name</h4>
+    <div class="indexLog">
+      
+        <input  class= "textBox" type="text" placeholder="Your Name">
+
+        <a href="game.html" style="text-decoration: none;">
+          <button class="material-symbols-outlined">arrow_forward</button>
+        </a>
         
-      </div>
-      <div class="score">
-      <p id="scoreDisplay">Your Score: 0 &nbsp;&nbsp;&nbsp;&nbsp;Opponent Score: 0</p>
-      <button class= "submitButton" onclick="reset()">Reset</button> 
+  
+
     </div>
     
   </body>

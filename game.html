@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RockPaperSissors</title>
+    <link rel="stylesheet" href="RockPaperSissors.css"></link>
+    <script src="RockPaperSissors.js" defer></script>
+  </head>
+  <body id="gameBody">
+    <h1>Game 4 U</h1>
+    <div class="content">
+      <div class="buttons">
+        <button class="clickable" alt="rock" onclick="user.result('rock')">✊</button>
+        <button class="clickable" alt="Sissors" onclick="user.result('sissors') ">✌️</button>
+        <button class="clickable" alt="paper" onclick="user.result('paper')">🖐️</button>
+      </div>
+        
+      </div>
+      <div class="score">
+      <p id="scoreDisplay">Your Score: 0 &nbsp;&nbsp;&nbsp;&nbsp;Opponent Score: 0</p>
+      <button class= "submitButton" onclick="user.resetScore()">Reset</button> 
+    </div>
+  </body>
+</html>

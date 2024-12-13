@@ -1,5 +1,5 @@
 /* Style for the heading */
-h1 {
+h1,h4{
   color:#ffff86;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: center;
@@ -10,7 +10,7 @@ h1 {
 
 }
 
-body{
+#gameBody{
 background-color: rgb(43, 42, 42);
 }
 
@@ -29,9 +29,9 @@ background-color: rgb(43, 42, 42);
 
 /* Style for buttons */
 .clickable{
-  background-color: #ff86cf;
+  background-color: rgb(43, 42, 42);
   border: 16px solid transparent; /* Transparent border initially */
-  border-radius: 30%;
+  border-radius: 50%;
   padding: 20px;
   margin: 10px;
   font-size: 100px;
@@ -84,6 +84,7 @@ p {
   cursor: pointer; /* Change cursor on hover */
   transition: background-color 0.5s ease, border 0.5s ease,border-style;
 }
+
 .buttons
 { display: flex;
   justify-content: center; /* Center horizontally */
@@ -98,10 +99,81 @@ p {
   align-items: center;
   flex-direction: row;
   gap: 16px;
+    
+}
 
+.UserNameBox
+{ display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:row;
+  size :8px;
+  padding:8px;
+}
+
+/* index page css begins*/
+
+#indexBody{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* Add some space between buttons */
+  /* Padding around the content */
+  margin: 0; /* Remove default margin */
+  flex-direction:column; /* Keep the buttons in a row */background-color: rgb(43, 42, 42);
+  } 
+
+  h4{
+    color:#ffff86;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+
+.textBox{
+  align-items: center;
+  text-align: center;
+  padding:16px;
+  size: 24px;
+  background-color:#ff66c2;
+  border:none;
+  border-radius:0px;
+}
+
+.textBox:focus{
+  padding:24px;
+  color: azure;
+  border:none;
+  border-color: none;
+}
+
+.textBox::placeholder{
+  color: azure;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    display: grid;
+    place-items: center;
+    color: rgb(255, 112, 243); 
+    background-color: aliceblue;
+    width:60px;
+    height:48px;/* Change icon color */
+    border: top left radius 4PX;
+    border: bottom left radius 4PX;
+    border-style:none;
   
 }
 
-
-
+.indexLog
+{
+  display:flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  flex-direction: row;
+  padding:16px;
   
+}
